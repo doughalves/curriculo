@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Quantico&display=swap');
+
+* {
+    font-size: 15px;
+}
+
+body {
+    background: radial-gradient(circle, rgba(75, 1, 111, 1) 0%, rgba(0, 0, 0, 1) 100%);
+    font-family: 'Quantico', sans-serif;
+}
+
+.container {
+    background-image: linear-gradient(to bottom, #030c1a, #002637, #004042, #005831, #4c6b06);
+    color: #F6F6F6;
+    margin: 64px;
+    border-radius: 20px;
+    padding: 64px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+}
+  
+.cabecalho {
+    display: flex;
+    justify-content: space-between;
+}
+  
+.perfil {
+    display: flex;
+    align-items: center;
+}
+  
+.perfil-foto {
+    max-width: 100px;
+    max-height: 100px;
+    border-radius: 460px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+    border: 5px solid  #292929;
+}
+  
+.titulo {
+    margin-left: 16px;
+    color: white; text-shadow: black 0.1em 0.1em 0.2em;
+}
+  
+.titulo h1 {
+    font-size: 30px;
+}
+  
+.titulo h3 {
+    font-size: 25px;
+}
+
+h3 {
+    font-size: 25px;
+}
+
+h4 {
+    font-size: 20px;
+}
+
+.contato {
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+    background: rgb(100, 100, 100);
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 1);
+    padding: 10px 50px;
+    font-weight: normal;
+    border: 5px solid  #292929;
+}
+
+.logos {
+      max-width: 30px;
+}
+
+.logos:hover, .logos:focus {
+    max-width: 40px;
+}
+
+.tema button {
+    align-self: baseline;
+    font-size: 16px;
+    padding: 8px 16px;
+    background: #ECF4FF;
+    box-sizing: border-box;
+    border-radius: 100px;
+    border: 3px solid #292929;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 1);
+}
+
+p {
+    font-size: 15px;
+    text-align: justify-all;
+}
+
+.light {
+    background: radial-gradient(circle, rgba(75, 1, 111, 1) 0%, rgba(0, 0, 0, 1) 100%);
+  }
+    
+.light .container {
+    background-image: linear-gradient(to bottom, #326ac2, #0095d9, #00b7c2, #0fd18f, #b9e062);
+    color: #1C1C1C;
+}
+
+.light .titulo {
+    color: black; text-shadow: white 0.1em 0.1em 0.2em
+}
+.light .portfolio {
+    color: #1C1C1C;
+}
+  
+.light .tema button {
+    color: #FFFFFF;
+    background: #1C1C1C;
+    box-sizing: border-box;
+    border-radius: 100px;
+    border: 2px solid #F7F7F7;
+}
